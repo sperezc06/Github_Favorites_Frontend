@@ -1,0 +1,39 @@
+.gh-container {
+  border-bottom: 1px solid lightgray;
+  border-radius: 2%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.gh-container .fav-star-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  background-color: white;
+}
+.gh-container .fav-star-icon:hover {
+  color: #fec600;
+}
+.gh-container .fav-star-icon:active {
+  color: #ba9202;
+}
+.gh-container .gh-repo span {
+  font-weight: 700;
+  color: #ccabeb;
+}
+.gh-container .gh-repo h2 {
+  align-items: center;
+  font-weight: 400;
+}
+.gh-container .gh-repo h4 {
+  color: #000;
+}
+.gh-container .gh-repo p {
+  color: #000;
+}

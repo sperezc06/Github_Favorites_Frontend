@@ -1,0 +1,61 @@
+.gh-full-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gh-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: solid 2px #41403e;
+  margin-bottom: 5px;
+  width: 400px;
+}
+.gh-container .fav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border: solid 1px lightblue;
+  margin-top: 15px;
+}
+.gh-container .fav-button:hover {
+  color: #fec600;
+}
+.gh-container .fav-button:hover:active {
+  color: #ba9202;
+}
+.gh-container .gh-repo span {
+  font-weight: 700;
+  color: #000000;
+}
+.gh-container .gh-repo h2 {
+  align-items: center;
+  font-weight: 400;
+}
+.gh-container .gh-repo h4 {
+  color: #000;
+}
+.gh-container .gh-repo p {
+  font-size: 0.8rem;
+  color: #000;
+}
+button {
+  padding: 5px;
+  background-color: #ffffff;
+  font-weight: 400;
+  border-color: #584c8c;
+  margin-top: 15px;
+  color: rgb(48, 38, 38);
+}
+button:hover {
+  background-color: #40adc5;
+}

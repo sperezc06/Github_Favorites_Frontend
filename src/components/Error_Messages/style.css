@@ -1,0 +1,20 @@
+.errorMsg {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #e87373;
+  margin: 5px;
+  padding: 5px;
+  border: solid 2px rgb(218, 25, 25);
+  border-radius: 10px;
+}
+.errorMsg-cancel {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  height: 22px;
+  background-color: #df4343;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}

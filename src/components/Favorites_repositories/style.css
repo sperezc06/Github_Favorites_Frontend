@@ -1,0 +1,27 @@
+.favContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favRepos {
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #41403e;
+  border-radius: 10px;
+  margin: 90px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  max-width: 500px;
+}
+.favRepos .favRepos-title {
+  font-weight: 800;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.favRepos .favRepos-p {
+  font-size: 1.2rem;
+}
